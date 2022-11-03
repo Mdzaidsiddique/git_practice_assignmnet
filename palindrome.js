@@ -1,13 +1,14 @@
-let str = 'racecar';
-function checkpalindrome(str) {
+function checkPalindrome(str) {
     let bag = '';
-    for (let i = 0; i < str; i++){
+    for (let i = str.length - 1; i >= 0; i--){
         bag+=str[i]
     }
     if (bag == str) {
-        return true;
+        console.log('Yes', str, 'is Palindrome.')
     }
     else {
-        return false
+        console.log('No',str,'is not a Palindrome')
     }
 }
+let str = 'racecar';
+checkPalindrome(str)
