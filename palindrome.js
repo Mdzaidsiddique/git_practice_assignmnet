@@ -4,10 +4,10 @@ function checkPalindrome(str) {
         bag+=str[i]
     }
     if (bag == str) {
-        console.log('Yes', str, 'is Palindrome.')
+        console.log('Yes', str, 'is Palindrome!')
     }
     else {
-        console.log('No',str,'is not a Palindrome')
+        console.log('No',str,'is not a Palindrome!')
     }
 }
 let str = 'racecar';
